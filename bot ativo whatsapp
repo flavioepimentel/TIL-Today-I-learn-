@@ -4,11 +4,11 @@ import time
 
 class WhatsappBot:
     def __init__(self):
-        # Parte 1 - A mensagem que você quer enviar
-        self.mensagem = "To só testando um bot"
-        # Parte 2 - Nome dos grupos ou pessoas a quem você deseja enviar a mensagem
-        self.grupos_ou_pessoas = ["contato 1", "contato 2"]
-        #escreva exatamente como o nome do contato está salvo
+        # Parte 1 - The mensage to send | A mensagem que será enviada
+        self.mensagem = "Hey, this is just a test."
+        # Parte 2 - Name of the people that will want send | Nome dos grupos ou pessoas a quem você deseja enviar a mensagem
+        self.grupos_ou_pessoas = ["contact 1", "contact 2"]
+        #  write exactly how the contact's name is saved | escreva exatamente como o nome do contato está salvo
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(
